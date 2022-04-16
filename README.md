@@ -21,6 +21,8 @@ The script was tested and currently works for:
 
 It is possible for it to work with other distributions but you will need to make sure that you have growpart installed.
 
+It is also very important to run this script as root since it needs permissions to play with the partitions.
+
 ## How to use it
 Syntax:
 
@@ -36,6 +38,8 @@ Some examples of running it are:
 
     pext -p /dev/sda1 -m /    -->   Will extend / directory on the first disk first partition
     pext -p /dev/sdb2 -m /var -->   Will extend /var directory on the second disk second partition
+
+I recommend adding this script to /usr/local/bin/ in order to be easily accessed form anywhere. 
 
 ## Contributors
     Creator: Alexandru Nișulescu
