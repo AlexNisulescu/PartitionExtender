@@ -1,5 +1,5 @@
 # Bash script for Extending space on a Linux partition
-
+[![HitCount](https://hits.dwyl.com/AlexNisulescu/PartitionExtender.svg?style=flat)](http://hits.dwyl.com/AlexNisulescu/PartitionExtender)
 ## Table of contents
   * [Index](#index)
   * [Introduction](#introduction)
